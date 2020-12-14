@@ -1,0 +1,64 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  font-family:'Poppins', sans-serif;
+}
+
+.container{
+  background-color: rgba(27,26,22,0.55);
+  width: 65%;
+  margin: 2% auto auto;
+  padding: 3%;
+  border-radius: 20px;
+}
+
+header{
+  margin: 2% auto 1%;
+  color: #16FF00;
+}
+
+header img{
+  width: 22%;
+}
+
+header, nav{
+  text-align: center;
+}
+
+nav{
+  background-color: #16FF00;
+  padding: 1%;
+  margin: auto 2%;
+}
+
+section{
+  color:white;
+  line-height: 150%;
+  margin: 2%;
+  font-weight: light;
+}
+
+.charge-bar1, .charge-bar2, .charge-bar3{
+  height:22px;
+  border-radius: 5px;
+}
+
+.charge-bar1{
+  background-color: #f5b453;
+  width: 34%;
+}
+
+.charge-bar2{
+  background-color: #1ec31e;
+  width: 60%;
+}
+
+.charge-bar3{
+  background-color: #be4141;
+  width: 12%;
+}
